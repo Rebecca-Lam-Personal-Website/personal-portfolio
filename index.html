@@ -10,35 +10,37 @@
   <body>
     <!-- Navigation bar -->
     <nav id="desktop-nav">
-      <div class="logo">Rebecca Lam</div>
-      <div>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experiencet">Experience</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+        <div class="logo">Rebecca Lam</div>
+        <div>
+          <ul class="nav-links">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./experience.html">Experience</a></li>
+            <li><a href="./portfolio.html">Portfolio</a></li>
+            <li><a href="./contact.html">Contact</a></li>
+          </ul>
+        </div>
     </nav>
     <nav id="hamburger-nav">
-      <div class="logo">Rebecca Lam</div>
-      <div class="hamburger-menu">
-        <div class="hamburger-icon" onclick="toggleMenu()">
-          <span></span>
-          <span></span>
-          <span></span>
+        <div class="logo">Rebecca Lam</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="./index.html" onclick="toggleMenu()">Home</a></li>
+            <li><a href="./about.html" onclick="toggleMenu()">About</a></li>
+            <li><a href="./experience.html" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="./portfolio.html" onclick="toggleMenu()">Portfolio</a></li>
+            <li><a href="./contact.html" onclick="toggleMenu()">Contact</a></li>
+          </div>
         </div>
-        <div class="menu-links">
-          <li><a href="#about" onclick="toggleMenu()">About</a></li>
-          <li><a href="#experiencet" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-        </div>
-      </div>
     </nav>
-    <section id="hero">
+    <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/profile-pic.png" alt="Rebecca profile picture" />
+        <img src="./assets/placeholderprofile.png" alt="Rebecca profile picture" />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -57,13 +59,13 @@
         </div>
         <div id="socials-container">
           <img
-            src="./assets/linkedin.png"
+            src="./assets/icons8-linkedin.png"
             alt="My LinkedIn profile"
             class="icon"
             onclick="location.href='https://linkedin.com/'"
           />
           <img
-            src="./assets/github.png"
+            src="./assets/icons8-github.png"
             alt="My Github profile"
             class="icon"
             onclick="location.href='https://github.com/'"
